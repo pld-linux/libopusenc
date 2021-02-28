@@ -54,9 +54,7 @@ Statyczna biblioteka libopusenc.
 Summary:	API documentation for libopusenc library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libopusenc
 Group:		Documentation
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for libopusenc library.
