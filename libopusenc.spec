@@ -14,6 +14,8 @@ Source0:	https://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 URL:		http://opus-codec.org/
 BuildRequires:	doxygen
 BuildRequires:	opus-devel >= 1.1
+BuildRequires:	pkgconfig
+BuildRequires:	rpm-build >= 4.6
 Requires:	opus >= 1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
