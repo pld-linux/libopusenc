@@ -93,12 +93,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING README.md
-%attr(755,root,root) %{_libdir}/libopusenc.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libopusenc.so.0
+%{_libdir}/libopusenc.so.*.*.*
+%ghost %{_libdir}/libopusenc.so.0
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/libopusenc.so
+%{_libdir}/libopusenc.so
 %{_includedir}/opus/opusenc.h
 %{_pkgconfigdir}/libopusenc.pc
 
