@@ -5,12 +5,12 @@
 Summary:	High-level Opus encoding library
 Summary(pl.UTF-8):	Wysokopoziomowa biblioteka do kodowania w formacie Opus
 Name:		libopusenc
-Version:	0.2.1
+Version:	0.3
 Release:	1
 License:	BSD
 Group:		Libraries
-Source0:	https://archive.mozilla.org/pub/opus/%{name}-%{version}.tar.gz
-# Source0-md5:	f038ea0f4168d184c76b42d293697c57
+Source0:	https://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
+# Source0-md5:	3ea9bf05bf3962ff3629383d633cc20a
 URL:		http://opus-codec.org/
 BuildRequires:	doxygen
 BuildRequires:	opus-devel >= 1.1
